@@ -24,8 +24,7 @@ const cities = [
 ];
 
 function getCitiesByLanguage(cities, language) {
-  const filteredCities = cities.filter((city) => city.language === language);
-  return filteredCities;
+  return cities.filter((city) => city.language === language);
 }
 const germanCities = getCitiesByLanguage(cities, "German");
 /* console.log(germanCities); */
